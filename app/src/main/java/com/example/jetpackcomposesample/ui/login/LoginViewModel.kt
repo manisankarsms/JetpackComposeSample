@@ -1,9 +1,8 @@
-package com.example.jetpackcomposesample
+package com.example.jetpackcomposesample.ui.login
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.jetpackcomposesample.data.repository.UserRepository
-import com.example.jetpackcomposesample.ui.login.LoginState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
